@@ -1,0 +1,24 @@
+#创建.gitignore请使用<.gitignore.>，注意两边都要有.
+
+#忽略项目下所有名为filename.txt的文件
+filename.txt
+
+#忽略sss后缀的所有文件，其中星号（*）为通配符，可代表多个字符，另外问号（？）代表一个字符，方括号（[abc]）代表可选字符范围
+*.sss
+
+#前面加上感叹号，取消对except.html文件的忽略
+!except.html
+
+#不带后缀的名称,忽略所有名称为all的文件和目录
+all
+
+#带后斜杠的名称, 忽略所有all目录
+all/
+
+#带前斜杠的名称,只忽略当前目录下的文件和目录，不涉及到子目录
+/all
+
+#本项目忽略文件及目录
+node_modules/
+.vscode/
+.idea/
